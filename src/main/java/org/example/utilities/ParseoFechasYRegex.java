@@ -4,9 +4,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ParseoFechas {
+public class ParseoFechasYRegex {
 
-    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     public static boolean validarFormatoFecha(String fechaString) {
         // Expresión regular para validar el formato "dd/MM/yyyy"
